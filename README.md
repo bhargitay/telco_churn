@@ -1,4 +1,4 @@
-# Telco churn Project 
+# Telco Churn Project 
 
 # Project's Aim
 My project's aim is to show a solution for a telco company's customer churn modelling with h2o. 

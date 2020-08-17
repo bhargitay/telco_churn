@@ -221,7 +221,8 @@ def result_comparison(model_list, test, target):
 
     fin_df = res_df[['Model', 'AUC', 'Customer Nbr', 'Target Nbr',
                      'Cum Capture Rate TOP 10%', 'Cum Response Rate TOP 10%', 'Target Found TOP 10%',
-                     'Cum Capture Rate TOP 20%', 'Cum Response Rate TOP 20%', 'Target Found TOP 20%']]
+                     'Cum Capture Rate TOP 20%', 'Cum Response Rate TOP 20%', 'Target Found TOP 20%']]\
+        .sort_values(by='AUC', ascending=False)
 
     return fin_df
 
